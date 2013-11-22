@@ -1,3 +1,71 @@
 body {
   /* rules go here */
 }
+.center{
+  margin-top:150px;
+  text-align:center;
+}
+.search{
+  margin-top: 10px;
+}
+.button{
+  margin-top: 10px;
+}
+.search input {
+  height: 26px;
+  opacity: .55;
+  box-shadow: none;
+  border: 1px solid;
+  border-color: rgb(170,170,170);
+  background-image: url("mic.gif");
+  background-repeat: no-repeat;
+  background-position: 99%;
+  background-size: 14px;
+}
+.search input:focus{
+  outline:none;
+  border-color: rgb(71,132,254);
+}
+.submit{
+  background-color: rgb(241,241,241);
+  border-radius: 2px;
+  border: 1px solid rgb(200,200,200);
+  font-family: Arial;
+  font-weight: bold;
+  color: rgb(80,80,80);
+  line-height: 22px;
+  font-size: 10px;
+}
+ul li{
+  display: inline;
+  padding: 5px;
+  font-family: Arial;
+  font-size: 12px;
+}
+.right{
+  text-align: right;
+}
+button{
+  float:right;
+  background-color: rgb(63,120,238);
+  color: white;
+  border: 0px solid;
+  border-radius: 2px;
+  line-height: 22px;
+  padding-left: 15px;
+  padding-right: 15px;
+  font-size: 12px;
+  font-weight: 500;
+  margin-top: -3px;
+  margin-left: 15px;
+}
+.matrix{
+  margin-left:-20px;
+  margin-top: -3px;
+  float:right;
+  width: 27px;
+  height: 27px;
+  background-image: url("v1_53a1fa6a.png");
+  background-repeat: no-repeat;
+  background-position: -431px -242px;
+}
